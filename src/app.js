@@ -3,7 +3,6 @@ const path = require('path')
 const hbs = require('hbs')
 const getGeocode = require('./utils/geocode')
 const forecast = require('./utils/weather')
-const chalk = require('chalk')
 
 const app = express()
 const port = process.env.PORT || 3000
@@ -85,5 +84,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log('Up and running!')
+  console.log('Up and running! Port 3000')
 })
