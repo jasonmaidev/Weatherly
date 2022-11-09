@@ -84,5 +84,6 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log('Up and running! Port 3000')
+  console.log('Up and running on Port 3000!')
 })
+
