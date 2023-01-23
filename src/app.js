@@ -22,7 +22,7 @@ app.use(express.static(publicPath))
 
 app.get('', (req, res) => {
   res.render('index', {
-    title: 'Weather',
+    title: 'WeatherApp',
     name: 'JM'
   })
 })
